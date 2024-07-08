@@ -16,6 +16,7 @@
 		18BFDC8F2C3C1C1F00694BE9 /* stepperDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDC8E2C3C1C1F00694BE9 /* stepperDemoTests.swift */; };
 		18BFDC992C3C1C1F00694BE9 /* stepperDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDC982C3C1C1F00694BE9 /* stepperDemoUITests.swift */; };
 		18BFDC9B2C3C1C1F00694BE9 /* stepperDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDC9A2C3C1C1F00694BE9 /* stepperDemoUITestsLaunchTests.swift */; };
+		18BFDCA82C3C1C3000694BE9 /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFDCA72C3C1C3000694BE9 /* StepperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18BFDC942C3C1C1F00694BE9 /* stepperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stepperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BFDC982C3C1C1F00694BE9 /* stepperDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepperDemoUITests.swift; sourceTree = "<group>"; };
 		18BFDC9A2C3C1C1F00694BE9 /* stepperDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepperDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18BFDCA72C3C1C3000694BE9 /* StepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				18BFDC802C3C1C1F00694BE9 /* Assets.xcassets */,
 				18BFDC822C3C1C1F00694BE9 /* LaunchScreen.storyboard */,
 				18BFDC852C3C1C1F00694BE9 /* Info.plist */,
+				18BFDCA72C3C1C3000694BE9 /* StepperViewController.swift */,
 			);
 			path = stepperDemo;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BFDCA82C3C1C3000694BE9 /* StepperViewController.swift in Sources */,
 				18BFDC7C2C3C1C1D00694BE9 /* ViewController.swift in Sources */,
 				18BFDC782C3C1C1D00694BE9 /* AppDelegate.swift in Sources */,
 				18BFDC7A2C3C1C1D00694BE9 /* SceneDelegate.swift in Sources */,
